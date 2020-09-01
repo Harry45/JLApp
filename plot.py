@@ -19,7 +19,7 @@ def plot_triangle(sim_samples, gp_samples, burnin_frac=0.1, emulator = True, gp_
 
     names = ["x%s" % i for i in range(ndim)]
 
-    labels = [r'$\Omega_{m}$', r'$w_{0}$', r'$M_{B}$', r'$\delta M$', r'$\alpha$', r'$\beta$']
+    labels = [r"\Omega_{m}", r"w_{0}", r"M_{B}", r"\delta M", r"\alpha", r"\beta"]
 
     # for the simulator
     burnin = int(burnin_frac * sim_samples.shape[1])
