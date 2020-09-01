@@ -15,10 +15,6 @@ import plot as pt
 import text as tx
 from MCEvidence import MCEvidence
 
-plt.rc('font', **{'family': 'sans-serif', 'serif': ['Palatino']})
-plt.rc('text', usetex=True)
-matplotlib.rcParams['text.latex.preamble'] = [r"\usepackage{amsmath}"]
-
 def timer(start,end):
     
     hours, rem = divmod(end-start, 3600)

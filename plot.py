@@ -13,7 +13,7 @@ def plot_triangle(sim_samples, gp_samples, burnin_frac=0.1, emulator = True, gp_
        label_gp = 'GP (Mean)'
 
     else:
-        label_gp = 'Simulator (MOPED'
+        label_gp = 'Simulator (MOPED)'
 
     ndim = sim_samples.shape[-1]
 
