@@ -1,0 +1,4 @@
+INFO:gp.py.__init__():89       Initialising variables...
+INFO:gp.py.transform():175      Size of the transformation matrix is (2, 2)
+INFO:gp.py.fit():406      The value of the cost is [-1029.3767 -1045.7373  -953.2632 -1036.8534  -951.592 ]
+INFO:gp.py.fit():413      Optimum is [2.303  0.7035 0.0249]

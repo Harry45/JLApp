@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------------------
+# Priors
+
+# Current implementation  allows normal and uniform distributions only
+# Note about using uniform: first element is the minimum of the bound
+# Meaning, [0.5, 0.4] implies 0.5<x<0.9
+
+# The priors are defined in this format and 
+# ordered in the way illustrated below.
+
+from collections import OrderedDict
+
+prior              = OrderedDict()
+
+prior['omega_m']   = [0.001, 0.599, 'uniform']
+
+prior['w0']        = [-1.50, 1.500, 'uniform']
+
+prior['M']         = [-19.0, 1.0, 'normal']
+
+prior['delta_M']   = [0.0, 1.0, 'normal']
+
+prior['alpha']     = [0.10, 1.0, 'normal']
+
+prior['beta']      = [2.5, 1.0, 'normal']
+
+# -----------------------------------------------------------------------------
