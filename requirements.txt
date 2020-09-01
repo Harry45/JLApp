@@ -8,3 +8,4 @@ GPy
 emcee
 dill
 Pillow
+GetDist
