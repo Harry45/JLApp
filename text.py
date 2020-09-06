@@ -114,7 +114,7 @@ content = {
 					""",
 
 	'results' : r"""
-				At this point, please use the left panel to configure the sampler and once this is done, click on 'Generate MCMC Samples'. Once the samples (either from the emulator wth or without the GP uncertainty or the simulator) are generated, the marginalised posterior distributions of all parameters (cosmological and nuisance) are shown below.
+				At this point, please use the left panel to configure the sampler and once this is done, click on 'Generate MCMC Samples'. Once the samples (either from the emulator with or without the GP uncertainty or the simulator) are generated, the marginalised posterior distributions of all parameters (cosmological and nuisance) are shown below.
 				""",
 
 	'conclusions':r"""
