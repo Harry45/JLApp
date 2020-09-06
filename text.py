@@ -118,7 +118,7 @@ content = {
 				""",
 
 	'conclusions':r"""
-					In this interactive application, we have shown how we can build an emulator by combining Gaussian Process formalisms and the MOPED data compression algorithm. On our high-end computer, the full simulator takes around 1 hour to generate 120 000 MCMC samples while the GP with the mean takes around 1 minute 30 seconds. Note that this might differ, depending on the compute engine. However, there are two main take-home messages. First, the emulator is faster compared to the simulator and the same idea extends to oher more expensive applications. Second, we have a new method for performing parameter inference.
+					In this interactive application, we have shown how we can build an emulator by combining Gaussian Process formalisms and the MOPED data compression algorithm. On our high-end computer, the full simulator takes around 1 hour to generate 120 000 MCMC samples while the GP with the mean takes around 1 minute 30 seconds. Note that this might differ, depending on the compute engine. However, there are two main take-home messages. First, the emulator is faster compared to the simulator and the same idea extends to other more expensive applications. Second, we have a new method for performing parameter inference.
 					""",
 	'evidence': r"""
 				Once we have the MCMC samples, we can use MCEvidence developed by <a href="https://arxiv.org/pdf/1704.03472.pdf">Heavens et al. 2017</a> to quickly calculate the evidence of the emulator.
